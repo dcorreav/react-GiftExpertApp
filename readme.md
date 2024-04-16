@@ -54,3 +54,6 @@ https://jestjs.io/docs/getting-started
 
 si en caso sea necesario instalar babel core manualmente 
 npm install --save-dev @babel/core
+
+
+para las pruebas ejecutamos el comando: npm run test
