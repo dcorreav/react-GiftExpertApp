@@ -1,9 +1,6 @@
-
+import PropTyes from 'prop-types';
 
 export const GifItem = ({ title, url }) => {
-
-
-
     return (
 
         <div className="card">
@@ -13,6 +10,11 @@ export const GifItem = ({ title, url }) => {
         </div>
 
     )
+}
 
 
+
+GifItem.PropTyes = {
+    title: PropTyes.string.isRequired,
+    url: PropTyes.string.isRequired,
 }

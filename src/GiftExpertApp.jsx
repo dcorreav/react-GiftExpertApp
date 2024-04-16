@@ -46,11 +46,6 @@ export const GiftExpertApp = () => {
                 ))
             }
 
-
-
-
-
-
         </>
     )
 
